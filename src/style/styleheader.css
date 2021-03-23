@@ -1,0 +1,112 @@
+body{
+    background-color: #0B132B;
+    margin:0;
+}
+
+.header{
+    height: 150px;
+    width: 100%;
+    background-color: #0B132B;
+    grid-template-columns: 200px auto 40%;
+    grid-template-rows: 10px 100px auto;
+    margin:0;
+    display: grid;
+}
+.logo{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: #5bC0BE;
+    border-radius: 54px;
+    margin-left: 10px;
+    display:grid;
+}
+.buscador{
+    grid-column-start: 2;
+    grid-column-end:3;
+    grid-row-start:3;
+    grid-row-end: 4;
+    background-color: #5bc0b5;
+    border-radius: 20px;
+    padding:0px;
+    display:flex;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.menus{
+    grid-column-start:3;
+    grid-column-end: 4;
+    grid-row-start:3;
+    grid-row-end: 4;
+    background-color: #0B132B;
+    display:flex;
+    padding: 0px;
+    margin:0px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.buscador-icono{
+    height:40px;
+    width:40px;
+    padding:0px;
+    border-radius: 20px;
+    background-color: #1C2541;
+}
+.buscador-icono img{
+    height:25px;
+    padding:0px;
+    margin: 7px;
+}
+.buscador-input{
+    height:100%;
+    width:100%;
+    padding:0px;
+    background-color: #5bc0b5;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+.buscador-input input{
+    height:100%;
+    width:100%;
+    padding:0px;
+    background-color: #5bc0b5;
+    font-family: "Quicksand",sans-serif;
+    font-size:90%;
+    border-radius: 20px;
+    border-style: none;
+    color: #3A506B;
+}
+::placeholder{
+    font-family: "Quicksand",sans-serif;
+    color: #3A506B;
+    font-size: 90%;
+}
+.menus_inicio{
+    font-family: "Quicksand",sans-serif;
+    color: #3A506B;
+    font-size:120%;
+    padding:0px;
+    margin: 0px;
+}
+.menus_electronica{
+    font-family: "Quicksand",sans-serif;
+    color: #3A506B;
+    font-size:120%;
+    padding:0px;
+    margin: 0px;
+}
+.menus_aplicaciones{
+    font-family: "Quicksand",sans-serif;
+    color: #3A506B;
+    font-size:120%;
+    padding:0px;
+    margin: 0px;
+}
+.menus_esports{
+    font-family: "Quicksand",sans-serif;
+    color: #3A506B;
+    font-size:120%;
+    padding:0px;
+    margin: 0px;
+}
